@@ -1,0 +1,28 @@
+
+
+@import "src/styles/variables";
+
+.button-wrapper {
+  width: 240px;
+  height: 48px;
+  border-radius: 30px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 10px;
+
+  background: linear-gradient($skyBlue, $oceanBlue);
+
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  &--title {
+    color: $white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}

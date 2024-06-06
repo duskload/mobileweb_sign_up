@@ -1,0 +1,14 @@
+
+@import "src/styles/variables";
+
+.header-wrapper {
+  padding-top: calc(94px + 44px);
+  display: flex;
+  justify-content: center;
+
+  &--title {
+    color: $darkBlue;
+    font-size: 28px;
+    font-weight: bold;
+  }
+}
